@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Level 1 Emergency Ultrasound Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Core Level 1 Emergency Ultrasound Guide</h1>
+        <p>A concise, non‑exhaustive handbook for emergency clinicians learning point‑of‑care ultrasound (PoCUS).</p>
+        <p id="lastUpdated" class="last-updated">Last updated:</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#setup">Setup &amp; Knobology</a></li>
+            <li><a href="#efast">eFAST</a></li>
+            <li><a href="#aaa">Abdominal Aorta (AAA)</a></li>
+            <li><a href="#lung">Lung</a></li>
+            <li><a href="#cardiac">Focused Cardiac</a></li>
+            <li><a href="#vascular">Vascular Access</a></li>
+            <li><a href="#signoff">Sign‑off</a></li>
+            <li><a href="#documentation">Documentation &amp; Safety</a></li>
+            <li><a href="#references">References</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="setup">
+            <h2>Setup &amp; Knobology</h2>
+            <p>Prepare your machine and patient before you begin. Use a probe cover and gel, confirm the indication and explain the exam to the patient.  Here are the common ultrasound probes and basic controls:</p>
+            <figure class="img-wrapper">
+                <img src="assets/curvilinear_probe.jpg" alt="Curvilinear ultrasound probe" class="ultrasound">
+                <figcaption>Curvilinear probe – commonly used for abdominal scanning due to its lower frequency and wider footprint.</figcaption>
+            </figure>
+            <h3>Probe types</h3>
+            <ul>
+                <li><strong>Curvilinear (2–5 MHz):</strong> Low‑frequency, wide footprint.  Ideal for abdominal and pelvic imaging.</li>
+                <li><strong>Phased array (1–5 MHz):</strong> Small footprint.  Used for cardiac windows and between ribs.</li>
+                <li><strong>Linear (5–13 MHz):</strong> High‑frequency, rectangular footprint.  Best for vascular access and superficial structures.</li>
+            </ul>
+            <h3>Orientation and image optimisation</h3>
+            <ul>
+                <li><strong>Orientation marker:</strong> The probe notch (or light) corresponds to the on‑screen marker.  For longitudinal planes the marker is typically pointed towards the patient’s head; for transverse planes it is pointed towards the patient’s right side.</li>
+                <li><strong>Depth:</strong> Adjust so your structure of interest occupies about two‑thirds of the field.  Too deep wastes resolution; too shallow may clip important anatomy.</li>
+                <li><strong>Gain:</strong> Start at mid‑range and adjust brightness so structures are visible without loss of detail.</li>
+                <li><strong>Motion:</strong> Use <em>sliding</em> (translate), <em>tilting</em> (fanning), <em>rocking</em> (heel‑toe), and <em>rotating</em> to centre and optimise your view.</li>
+            </ul>
+        </section>
+
+        <section id="efast">
+            <h2>eFAST – Extended Focused Assessment with Sonography for Trauma</h2>
+            <p>The eFAST exam screens for intraperitoneal, pleural and pericardial free fluid and for pneumothorax.  It is performed with a low‑frequency curvilinear or phased array probe on a supine patient.  Perform the abdominal views first then finish with thoracic views to keep the probe sterile.</p>
+            <figure class="img-wrapper">
+                <img src="assets/efast_torso.jpg" alt="eFAST scan positions on a torso mannequin" class="diagram">
+                <figcaption>eFAST scan points: RUQ (Morison’s pouch), LUQ (splenorenal recess), suprapubic/pelvic, subxiphoid (pericardial), and bilateral anterior lung apices.</figcaption>
+            </figure>
+            <h3>Right Upper Quadrant (RUQ)</h3>
+            <ul>
+                <li>Place the probe in the mid‑axillary line at the 8th–11th intercostal space; indicator toward the patient’s head.</li>
+                <li>Identify the diaphragm, liver and right kidney.  Look for anechoic fluid in Morison’s pouch between the liver and kidney and in the costophrenic recess.</li>
+            </ul>
+            <h3>Left Upper Quadrant (LUQ)</h3>
+            <ul>
+                <li>Place the probe posteriorly at the posterior axillary line; indicator toward the head.</li>
+                <li>Identify the spleen, diaphragm and left kidney.  Look for free fluid around the spleen tip, splenorenal recess and subdiaphragmatic space.</li>
+            </ul>
+            <h3>Pelvic view</h3>
+            <ul>
+                <li>Position the probe just above the pubic symphysis.  Start transverse with the indicator towards the patient’s right side, then rotate 90° into a sagittal plane.</li>
+                <li>Use the bladder as an acoustic window; scan both axial and sagittal planes to assess the rectovesical pouch (male) or pouch of Douglas (female) for free fluid.</li>
+            </ul>
+            <h3>Cardiac view (subxiphoid)</h3>
+            <ul>
+                <li>Use a phased array probe.  Place just inferior to the xiphoid process with the indicator towards the patient’s right.</li>
+                <li>Angle cephalad under the ribs, using the liver as an acoustic window.  Identify all four chambers and look for pericardial effusion or poor cardiac activity.</li>
+            </ul>
+            <h3>Lung views</h3>
+            <ul>
+                <li>Place a linear or curvilinear probe on the anterior chest at the 2nd–4th intercostal spaces mid‑clavicular or mid‑axillary line with the indicator towards the head.</li>
+                <li>Normal lungs show shimmering pleural “lung sliding” and horizontal A‑lines.  Absence of sliding and the presence of a barcode/stratosphere sign on M‑mode indicate pneumothorax.</li>
+            </ul>
+            <figure class="img-wrapper">
+                <img src="assets/morison_pouch.jpg" alt="Morison’s pouch free fluid ultrasound" class="ultrasound">
+                <figcaption>RUQ ultrasound: anechoic free fluid in Morison’s pouch between liver and right kidney.</figcaption>
+            </figure>
+        </section>
+
+        <section id="aaa">
+            <h2>Abdominal Aorta (AAA)</h2>
+            <p>AAA screening is performed with the patient supine.  Use a curvilinear probe.  Begin at the epigastrium in transverse orientation with the indicator to the patient’s right and sweep caudally.</p>
+            <ul>
+                <li>Identify the aorta just anterior to the vertebral body.  Follow it from the diaphragm to the bifurcation.</li>
+                <li>Measure the maximal diameter from outer wall to outer wall at proximal, mid and distal segments.  A diameter ≥3 cm is suggestive of aneurysm.</li>
+                <li>Rotate into longitudinal orientation (indicator to patient’s head) to confirm aneurysm and assess for dissection or intraluminal thrombus.</li>
+            </ul>
+            <figure class="img-wrapper">
+                <img src="assets/aaa_ultrasound.jpg" alt="Cross‑sectional ultrasound of the abdominal aorta" class="ultrasound">
+                <figcaption>Transverse view of the abdominal aorta; measure outer‑to‑outer diameter to diagnose aneurysm.</figcaption>
+            </figure>
+        </section>
+
+        <section id="lung">
+            <h2>Lung Ultrasound</h2>
+            <p>Lung PoCUS can identify pneumothorax, pulmonary oedema, consolidation and pleural effusion.  A six‑point scanning technique is commonly used.  Use a linear probe for pleural detail or a curvilinear probe for deeper pathology.</p>
+            <h3>Six‑point protocol</h3>
+            <ul>
+                <li>Position the patient supine or semi‑recumbent with arms raised to expose the chest.</li>
+                <li>Scan each hemithorax at three points: R1/L1 (anterior mid‑clavicular), R2/L2 (lateral anterior axillary) and R3/L3 (posterior axillary).  Always orient the indicator cephalad.</li>
+                <li>Assess for lung sliding, A‑lines (normal), B‑lines (vertical comet tails indicating interstitial oedema), consolidation (tissue‑like lung) and pleural effusion (anechoic fluid above the diaphragm).</li>
+                <li>Use M‑mode to differentiate pneumothorax (barcode sign) from normal lung (seashore sign) when uncertain.</li>
+            </ul>
+            <figure class="img-wrapper">
+                <img src="assets/lung_blines.jpg" alt="Lung ultrasound showing B‑lines" class="ultrasound">
+                <figcaption>Lung ultrasound demonstrating multiple vertical B‑lines indicating interstitial syndrome.</figcaption>
+            </figure>
+        </section>
+
+        <section id="cardiac">
+            <h2>Focused Cardiac Ultrasound (Echo in Life Support)</h2>
+            <p>This is a limited echocardiographic exam performed during resuscitation to answer four key questions: is there cardiac activity, is there pericardial effusion, what is the relative right/left ventricular size and what is the global left ventricular function.</p>
+            <h3>Subxiphoid (subcostal) view</h3>
+            <ul>
+                <li>Use a phased array probe.  Place inferior to the xiphoid with the indicator towards the patient’s right.</li>
+                <li>Angle cephalad under the ribs through the liver.  Visualise all four chambers and pericardium.</li>
+            </ul>
+            <h3>Parasternal long axis (PLAX)</h3>
+            <ul>
+                <li>Place the probe just left of the sternum in the 3rd–4th intercostal space; indicator towards the patient’s right shoulder.</li>
+                <li>Visualise the left atrium, left ventricle and right ventricle inflow.  Assess left ventricular size and contractility and look for pericardial effusion.</li>
+            </ul>
+            <h3>Parasternal short axis (PSAX)</h3>
+            <ul>
+                <li>Rotate 90° from PLAX (indicator to left shoulder) to obtain a cross‑section of the ventricles at the mitral or papillary muscle level.</li>
+                <li>Evaluate right ventricle to left ventricle ratio and regional wall motion.</li>
+            </ul>
+            <h3>Apical four‑chamber (A4C)</h3>
+            <ul>
+                <li>From the apex (5th intercostal space at the mid‑clavicular line), point the indicator towards the patient’s left.  Obtain all four chambers for comparison of ventricle size and assessment of function.</li>
+            </ul>
+            <figure class="img-wrapper">
+                <img src="assets/cardiac_ultrasound.jpg" alt="Parasternal long‑axis M‑mode echocardiogram" class="ultrasound">
+                <figcaption>Echocardiogram in parasternal long axis with M‑mode showing left ventricular motion.</figcaption>
+            </figure>
+        </section>
+
+        <section id="vascular">
+            <h2>Ultrasound‑Guided Vascular Access</h2>
+            <p>Ultrasound can aid intravenous cannulation when veins are not palpable or visible.  A high‑frequency linear probe provides high resolution of superficial structures.</p>
+            <h3>Preparation</h3>
+            <ul>
+                <li>Apply a tourniquet proximal to the chosen vein to distend it.  Cover the probe with a sterile sheath and apply gel inside and outside the cover.</li>
+                <li>Align the probe indicator with the operator’s dominant hand so that needle advancement corresponds with movement on the screen.</li>
+            </ul>
+            <h3>Short‑axis (out‑of‑plane) technique</h3>
+            <ul>
+                <li>Place the probe perpendicular to the vessel so it appears as a circle.  Centre the vein on the screen; ensure the artery is identified and avoided.</li>
+                <li>Insert the needle at 30–45° just distal to the probe.  Advance slowly, watching for the needle tip as a bright dot entering the vessel.</li>
+                <li>Once the tip is in the lumen and blood return occurs, flatten the angle and advance the catheter into the vein.</li>
+            </ul>
+            <h3>Long‑axis (in‑plane) technique</h3>
+            <ul>
+                <li>Rotate the probe so the vessel appears as a tube.  Align the probe along the length of the vein.</li>
+                <li>Insert the needle parallel to the probe, maintaining visualisation of the entire shaft and tip.  Advance the catheter into the vein once the tip is visualised within the lumen.</li>
+            </ul>
+            <figure class="img-wrapper">
+                <img src="assets/vascular_ultrasound.jpg" alt="Ultrasound of femoral artery and vein with deep vein thrombosis" class="ultrasound">
+                <figcaption>Doppler ultrasound of femoral vessels.  Note the compressible vein (medial) and non‑compressible artery (lateral) – an example of vascular anatomy for ultrasound‑guided access.</figcaption>
+            </figure>
+        </section>
+
+        <section id="signoff">
+            <h2>Sign‑Off &amp; Competency Requirements</h2>
+            <p>The Royal College of Emergency Medicine (RCEM) PoCUS curriculum emphasises that competence is judged on quality and reflection rather than purely numbers.  Nevertheless, indicative numbers help guide training:</p>
+            <ul>
+                <li><strong>eFAST/FAFF:</strong> approximately 25 recorded scans with reflective cases.</li>
+                <li><strong>Abdominal Aorta (AAA):</strong> approximately 25 recorded scans.</li>
+                <li><strong>Lung ultrasound:</strong> approximately 25 recorded scans.</li>
+                <li><strong>Focused cardiac (Echo in Life Support):</strong> approximately 10 recorded scans covering subxiphoid and one other view.</li>
+                <li><strong>Ultrasound‑guided vascular access:</strong> approximately 10 supervised cannulations.</li>
+            </ul>
+            <p>These numbers are suggestions; local guidelines may vary.  Always discuss your logbook with a qualified mentor before requesting formal sign‑off.</p>
+        </section>
+
+        <section id="documentation">
+            <h2>Documentation &amp; Safety</h2>
+            <h3>Documentation</h3>
+            <ul>
+                <li>Record the patient’s name/ID and indication for the scan.</li>
+                <li>Note the probe used, views obtained and any limitations (obesity, gas, poor windows).</li>
+                <li>Document key findings (e.g., free fluid present or absent, aortic diameter, B‑lines, ventricular size, vessel patency).</li>
+                <li>Store representative still images or clips in the patient record.  Label them with date/time and view description.</li>
+                <li>Describe how the ultrasound influenced management or the next step (e.g., CT scan, thoracostomy, resuscitation decisions).</li>
+            </ul>
+            <h3>Safety &amp; Governance</h3>
+            <ul>
+                <li>Point‑of‑care ultrasound is an adjunct to, not a replacement for, clinical assessment and other imaging.  Negative scans do not rule out pathology.</li>
+                <li>Ensure infection prevention: use probe covers, disinfect between patients and adhere to local high‑level disinfection protocols.</li>
+                <li>Obtain patient consent where appropriate and maintain dignity during scanning.</li>
+                <li>Maintain a logbook of all scans with reflections.  Follow your institution’s credentialing pathway for sign‑off and ongoing revalidation.</li>
+                <li>Always consult senior clinicians when uncertain or when scans show unexpected findings.</li>
+            </ul>
+        </section>
+
+        <section id="references">
+            <h2>References &amp; Further Reading</h2>
+            <ul>
+                <li>Royal College of Emergency Medicine (RCEM). <em>Point‑of‑Care Ultrasound (PoCUS) Curriculum Appendix</em> – guidance on recommended scan numbers and competencies.</li>
+                <li>POCUS 101. <em>eFAST Ultrasound: Step‑by‑Step Guide</em> – detailed description of eFAST views and interpretation.</li>
+                <li>POCUS 101. <em>Aorta Ultrasound</em> – how to scan and measure the abdominal aorta.</li>
+                <li>POCUS 101. <em>Lung Ultrasound</em> – explains scanning technique and common pathologies.</li>
+                <li>RCEMLearning. <em>Echo in Life Support (ELS)</em> – focused cardiac ultrasound for emergency clinicians.</li>
+                <li>POCUS 101. <em>Ultrasound‑Guided Peripheral IV Cannulation</em> – technique for vascular access.</li>
+                <li>POCUS 101. <em>Ultrasound Knobology</em> – overview of basic machine controls.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created for educational purposes.  Always follow local guidelines and seek senior supervision when learning ultrasound.</p>
+    </footer>
+</body>
+</html>
